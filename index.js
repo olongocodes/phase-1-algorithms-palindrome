@@ -1,9 +1,11 @@
-function reverse(word){
+function reverse(word){ 
   // "abc" => 'cba'
-  const wordArray =word.split("")
-  const reversedWordArray = wordArray.reverse()
-  const reversedWord = reversedWordArray.join("")
-  return reversedWord;
+  // const wordArray =word.split("")  //creating an array from the inpåut string
+  // const reversedWordArray = wordArray.reverse()  // reverse the array
+  // const reversedWord = reversedWordArray.join("") //creating a strring from the reversed array
+  // return reversedWord;                            //return the reversed string
+  return word.split("").reverse().join("");     //same  process as line 3,4,5 just in one line
+
 }
 
 function isPalindrome(word) {
